@@ -1,0 +1,17 @@
+{
+  "name": "slack-summary",
+  "version": "1.0.0",
+  "description": "Slack slash command to show today's important mentions in the current channel",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^4.0.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
